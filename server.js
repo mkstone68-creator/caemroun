@@ -40,7 +40,7 @@ const pool = new Pool({
 
 /* ---- Parametres ---- */
 const BASE_OFFSET   = parseInt(process.env.BASE_OFFSET   || '1854', 10);
-const AUTO_PER_TICK = parseInt(process.env.AUTO_PER_TICK || '10',  10);
+const AUTO_PER_TICK = parseInt(process.env.AUTO_PER_TICK || '5',   10);
 const AUTO_TICK_SEC = parseInt(process.env.AUTO_TICK_SEC || '10',  10);
 const MAX_PER_IP    = parseInt(process.env.MAX_PER_IP    || '3',   10);
 // Point de depart du compteur automatique : par defaut, le demarrage du serveur.
